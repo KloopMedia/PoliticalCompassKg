@@ -21,7 +21,7 @@ function App(){
 			<div>
 					<Router>
 						<div>
-							<Route exact path={"/PoliticalCompassKr/"} component={Home}/>
+							<Route exact path={"/PoliticalCompassKg/"} component={Home}/>
 						</div>
 					</Router>
 			</div>
