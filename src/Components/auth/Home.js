@@ -400,7 +400,7 @@ class Home extends Component {
 		const db = firebase.firestore().collection("users_answers")
 		let uid;
 		let user = firebase.auth().currentUser
-		if (this.state.saveData == "false0") {//TODO
+		if (this.state.saveData == false) {
 
 			firebase.auth().onAuthStateChanged(function (user) {
 				if (user != null) {
