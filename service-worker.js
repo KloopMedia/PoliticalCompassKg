@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/PoliticalCompassKg/precache-manifest.b30ab899d974596756d4f4bb513734e5.js"
+  "/PoliticalCompassKg/precache-manifest.a6b909e9d9d198272b000530c30333ef.js"
 );
 
 self.addEventListener('message', (event) => {
