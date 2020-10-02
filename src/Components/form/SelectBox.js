@@ -47,7 +47,7 @@ export default function SelectBox(props) {
 		<div>
 			<h4 className={"question_title"}>{props.title}</h4>
 			<FormControl className={classes.formControl} disabled={props.locked ? true : false}>
-				<InputLabel id="controlled-open-select-label">Выбрать</InputLabel>
+				<InputLabel id="controlled-open-select-label">Тандоо</InputLabel>
 				<Select
 					labelId="controlled-open-select-label"
 					id={"select" + index}
